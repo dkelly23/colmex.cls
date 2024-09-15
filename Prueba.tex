@@ -1,0 +1,110 @@
+\documentclass[esp]{colmex}
+
+\institute{Universidad de Procedencia}
+\title{Ejemplo}
+\subtitle{Clase colmex.cls}
+\author{Daniel Kelly}
+\mail{djsanchez@colmex.mx}
+\date{Septiembre de 2024}
+
+\begin{document}
+
+\maketitle
+
+\chapter{Ejemplo de Capítulo}
+
+\section{Ejemplo de Sección}
+
+\begin{itemize}
+    \item Ejemplo de Texto en Color \blue{Azul}.
+    \item Ejemplo de Texto en Color \green{Verde}.
+    \item Ejemplo de Texto en Color \orange{Naranja}.
+\end{itemize}
+
+
+\section{Comandos de Matemáticas}
+
+\begin{itemize}
+    \item Derivada Parcial: $\pd{f(x,y)}{x}$
+    \bigskip
+    \item Sumatoria: $\dsum{i=1}{N}$
+    \bigskip
+    \item Producto: $\dprod{i=1}{N}$
+    \bigskip
+    \item Probability Limit: $\plim{x}$
+    \bigskip
+    \item Operador de Esperanza: $\E{x|y}$
+    \bigskip
+    \item Operador de Varianza: $\var{x|y}$
+    \bigskip
+    \item Underset: $\un{x}{Texto}$
+    \bigskip
+    \item Negritas: $\mn{x}$
+    \bigskip
+    \item Números Reales: $\R$
+\end{itemize}
+
+
+\section{Entornos}
+\begin{itemize}
+    \item \textbf{Ejemplo}
+
+\ej{Título}{
+Este es un ejemplo del entorno ejemplo.
+}
+
+    \item \textbf{Definición}
+
+\defi{Título}{
+Este es un ejemplo del entorno definicion.
+}
+
+    \item \textbf{Teorema}
+
+\teo{Titulo}{
+Este es un ejemplo del entorno teorema.
+}
+
+    \item \textbf{Suposición}
+
+\supo{Título}{
+Este es un ejemplo del entorno suposición.
+}
+
+    \item \textbf{Demostración}
+
+\proof{
+Este es un ejemplo del entorno demostración.
+}
+\end{itemize}
+
+\section{Figuras}
+
+El comportamiento por defecto de las figuras es ser incluídas al inicio de la página inmediatamente posterior a su inclusión, o en el centro de la siguiente página entera en caso que no haya más texto después.\\
+
+Dentro del entorno \textit{figurenotes} se pueden añadir notas a la figura.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{example-image}
+    \caption{Título de la Figura}
+    \begin{figurenotes}
+        asdasdasdasd
+    \end{figurenotes}
+\end{figure}
+
+
+\section{Math Arrays}
+
+Simplificamos el uso de los arrays utilizando los comandos \textit{open} y \textit{close}. Automáticamente estos abren un entorno de ecuación, y dentro de él uno de array. En caso que se quiera un array sin que esté dentro de un entorno de ecuación, se recomienda usar el entorno regular. \\
+
+Por defecto, se genera un array con 8 columnas alineadas a la izquierda, en caso que se desee modificar este número, se recomienda hacer uso del entorno regular.
+
+\open
+& x_i & = & \x & \text{Ejemplo} \\
+\\
+& y_i & = & \y & \text{Ejemplo} \\
+\close
+
+
+\end{document}
