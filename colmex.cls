@@ -323,6 +323,20 @@
 		\textbf{Proof:} #1
 	\end{demostracion}
 }
+\fi 
+
+% ______________________________________________________________________________
+% Simpler Math Arrays
+
+\newcommand\open[0]{
+\begin{equation}
+\begin{array}{llllllll}
+}
+
+\newcommand\close[0]{
+\end{array}
+\end{equation}
+}
 
 
 
