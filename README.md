@@ -93,9 +93,7 @@ Todos los siguientes comandos deben usarse dentro de entornos de matemáticas da
     \dprod{i=1}{N}
     ```
     El comando anterior imprime:
-    $
-    \displaystyle\prod_{i=1}^{N}
-    $
+    $\displaystyle\prod_{i=1}^{N}$
     Su uso es análogo al de `dfrac` en el caso de la fracción. En contraste, el comando `prod` imprime $\prod_{i=1}^{N}$.
 
 - **Probability Limit**
@@ -104,9 +102,7 @@ Todos los siguientes comandos deben usarse dentro de entornos de matemáticas da
     \plim{x}
     ```
     El comando anterior imprime:
-    $
-    \text{plim}\lbrace {x} \rbrace
-    $
+    $\text{plim}\lbrace {x} \rbrace$
 
 - **Operador de Esperanza**
 
@@ -114,9 +110,7 @@ Todos los siguientes comandos deben usarse dentro de entornos de matemáticas da
     \E{x}
     ```
     El comando anterior imprime:
-    $
-  \text{E}\lbrace {x} \rbrace
-    $
+    $\text{E}\lbrace {x} \rbrace$
     Dentro del operador se puede incluir también el operador condicional incluyendo `|` dentro del operador.
 
 - **Operador de Varianza**
@@ -125,9 +119,7 @@ Todos los siguientes comandos deben usarse dentro de entornos de matemáticas da
     \Var{x}
     ```
     El comando anterior imprime:
-    $
-    \text{Var}\lbrace {x} \rbrace
-    $
+    $\text{Var}\lbrace {x} \rbrace$
     Dentro del operador se puede incluir también el operador condicional incluyendo `|` dentro del operador.
 
 - **Comando Underset**
@@ -136,9 +128,7 @@ Todos los siguientes comandos deben usarse dentro de entornos de matemáticas da
     \un{x}{text}
     ```
     El comando anterior imprime:
-    $
-    \underset{x}{text}
-    $
+    $\underset{x}{text}$
     Simplifica el uso del comando `underset` para abreviarlo.
 
 - **Negritas en Matemáticas**
@@ -147,9 +137,7 @@ Todos los siguientes comandos deben usarse dentro de entornos de matemáticas da
     \mn{A}
     ```
     El comando anterior imprime:
-    $
-    \mathbf{A}
-    $
+    $\mathbf{A}$
     Simplifica el uso del comando `mathbf` para imprimir operadores matemáticos en negritas.
 
 - **Números Reales**
@@ -158,9 +146,7 @@ Todos los siguientes comandos deben usarse dentro de entornos de matemáticas da
     \R
     ```
     El comando imprime:
-    $
-    \mathbb{R}
-    $
+    $\mathbb{R}$
 
 ### Alfabeto Griego
 
@@ -329,10 +315,8 @@ q & r & s & t & u & v & w & x \\
 ```
 
 Imprime:
-$
-	\begin{array}{llllllll}
+$\begin{array}{llllllll}
 	a & b & c & d & e & f & g & h \\
 i & j & k & l & m & n & o & p \\
 q & r & s & t & u & v & w & x \\
-	\end{array}
-$
+	\end{array}$
