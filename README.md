@@ -216,11 +216,9 @@ Se puede conseguir lo mismo con el resto del alfabeto usando el comando *mn*.
     \eq{x+y}
     ```
     El comando anterior imprime:
-    $
-    \begin{equation}
+    $\begin{equation}
     {x+y}
-    \end{equation}
-    $
+    \end{equation}$
 
 - **Ejemplo**
 
