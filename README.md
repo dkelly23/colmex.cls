@@ -84,9 +84,9 @@ Todos los siguientes comandos deben usarse dentro de entornos de matemáticas da
     \dsum{i=1}{N}
     ```
     El comando anterior imprime:
-    $$
+    $
     \displaystyle\sum_{i=1}^{N}
-    $$
+    $
     Su uso es análogo al de `dfrac` en el caso de la fracción. En contraste, el comando `sum` imprime $\sum_{i=1}^{N}$.
 
 - **Operador de Producto**
@@ -95,9 +95,9 @@ Todos los siguientes comandos deben usarse dentro de entornos de matemáticas da
     \dprod{i=1}{N}
     ```
     El comando anterior imprime:
-    $$
+    $
     \displaystyle\prod_{i=1}^{N}
-    $$
+    $
     Su uso es análogo al de `dfrac` en el caso de la fracción. En contraste, el comando `prod` imprime $\prod_{i=1}^{N}$.
 
 - **Probability Limit**
@@ -106,9 +106,9 @@ Todos los siguientes comandos deben usarse dentro de entornos de matemáticas da
     \plim{x}
     ```
     El comando anterior imprime:
-    $$
+    $
     \text{plim}\lbrace {x} \rbrace
-    $$
+    $
 
 - **Operador de Esperanza**
 
@@ -116,9 +116,9 @@ Todos los siguientes comandos deben usarse dentro de entornos de matemáticas da
     \E{x}
     ```
     El comando anterior imprime:
-    $$
+    $
   \text{E}\lbrace {x} \rbrace
-    $$
+    $
     Dentro del operador se puede incluir también el operador condicional incluyendo `|` dentro del operador.
 
 - **Operador de Varianza**
@@ -127,9 +127,9 @@ Todos los siguientes comandos deben usarse dentro de entornos de matemáticas da
     \Var{x}
     ```
     El comando anterior imprime:
-    $$
+    $
     \text{Var}\lbrace {x} \rbrace
-    $$
+    $
     Dentro del operador se puede incluir también el operador condicional incluyendo `|` dentro del operador.
 
 - **Comando Underset**
@@ -138,9 +138,9 @@ Todos los siguientes comandos deben usarse dentro de entornos de matemáticas da
     \un{x}{text}
     ```
     El comando anterior imprime:
-    $$
+    $
     \underset{x}{text}
-    $$
+    $
     Simplifica el uso del comando `underset` para abreviarlo.
 
 - **Negritas en Matemáticas**
@@ -149,9 +149,9 @@ Todos los siguientes comandos deben usarse dentro de entornos de matemáticas da
     \mn{A}
     ```
     El comando anterior imprime:
-    $$
+    $
     \mathbf{A}
-    $$
+    $
     Simplifica el uso del comando `mathbf` para imprimir operadores matemáticos en negritas.
 
 - **Números Reales**
@@ -160,9 +160,9 @@ Todos los siguientes comandos deben usarse dentro de entornos de matemáticas da
     \R
     ```
     El comando imprime:
-    $$
+    $
     \mathbb{R}
-    $$
+    $
 
 ### Alfabeto Griego
 
@@ -217,7 +217,7 @@ Las letras $x, y, z$ y $w$ pueden utilizarse en forma de comando para ponerlos e
 ```
 
 Imprime:
-$$\mathbf{x}\cdot\mathbf{X}$$
+$\mathbf{x}\cdot\mathbf{X}$
 
 Se puede conseguir lo mismo con el resto del alfabeto usando el comando *mn*.
 
@@ -232,11 +232,11 @@ Se puede conseguir lo mismo con el resto del alfabeto usando el comando *mn*.
     \eq{x+y}
     ```
     El comando anterior imprime:
-    $$
+    $
     \begin{equation}
     {x+y}
     \end{equation}
-    $$
+    $
 
 - **Ejemplo**
 
@@ -331,10 +331,10 @@ q & r & s & t & u & v & w & x \\
 ```
 
 Imprime:
-$$
+$
 	\begin{array}{llllllll}
 	a & b & c & d & e & f & g & h \\
 i & j & k & l & m & n & o & p \\
 q & r & s & t & u & v & w & x \\
 	\end{array}
-$$
+$
