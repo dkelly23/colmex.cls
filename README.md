@@ -84,9 +84,7 @@ Todos los siguientes comandos deben usarse dentro de entornos de matemáticas da
     \dsum{i=1}{N}
     ```
     El comando anterior imprime:
-    $
-    \displaystyle\sum_{i=1}^{N}
-    $
+    $\displaystyle\sum_{i=1}^{N}$
     Su uso es análogo al de `dfrac` en el caso de la fracción. En contraste, el comando `sum` imprime $\sum_{i=1}^{N}$.
 
 - **Operador de Producto**
