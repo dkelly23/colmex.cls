@@ -311,6 +311,3 @@ i & j & k & l & m & n & o & p \\
 q & r & s & t & u & v & w & x \\
 \close
 ```
-
-Imprime:
-$\begin{array}{llllllll} a & b & c & d & e & f  \\ i & j & k & l & m & n & j \\ q & r & s & t & u & v & w \end{array}$
