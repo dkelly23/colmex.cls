@@ -293,3 +293,48 @@ Los comandos para generar estos entornos son:
 \supo{Título}{Este es un ejemplo del entorno suposición.}
 \proof{Título}{Este es un ejemplo del entorno demostración.}
 ```
+
+### Comandos para Arrays Matemáticos Simples
+
+Para simplificar la escritura de arrays matemáticos en LaTeX, definimos los siguientes comandos:
+
+- **Abrir un Array**
+
+    Utiliza el comando `\open` para iniciar un array matemático:
+
+    ```latex
+    \open
+    ```
+
+    Este comando abre un entorno `array` dentro de una `equation`, permitiendo la organización de múltiples columnas en una estructura de tabla matemática.
+
+- **Cerrar un Array**
+
+    Utiliza el comando `\close` para cerrar el array matemático:
+
+    ```latex
+    \close
+    ```
+
+    Este comando cierra el entorno `array` y la `equation`, finalizando la estructura del array.
+
+#### Ejemplo de Uso
+
+Aquí hay un ejemplo de cómo usar estos comandos para crear un array matemático simple:
+
+```latex
+\open
+a & b & c & d & e & f & g & h \\
+i & j & k & l & m & n & o & p \\
+q & r & s & t & u & v & w & x \\
+\close
+```
+
+Imprime:
+$$\begin{equation}
+	\begin{array}{llllllll}
+	a & b & c & d & e & f & g & h \\
+i & j & k & l & m & n & o & p \\
+q & r & s & t & u & v & w & x \\
+	\end{array}
+\end{equation}$$
